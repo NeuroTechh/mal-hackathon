@@ -1,4 +1,4 @@
-# NeuroTechh
+# NeuroTechh - [BLOG HERE](https://jkartik.in/blog/mal4-hackathon-where-code-was-optional/)
 
 **First Prize — Mobile Architecture Lab (MAL4) Hackathon 🏆**
 
