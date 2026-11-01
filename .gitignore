@@ -1,0 +1,36 @@
+node_modules/
+.env
+.env.*
+!.env.example
+dist/
+*.log
+.DS_Store
+
+# Expo and generated native projects
+.expo/
+web-build/
+app/android/
+app/ios/
+*.tsbuildinfo
+
+# Credentials and signing material
+*.pem
+*.key
+*.p8
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.mobileprovision
+*service-account*.json
+google-services.json
+GoogleService-Info.plist
+.npmrc
+
+# Local tooling and captures
+.codex/
+.agents/
+.aws/
+coverage/
+*.heapsnapshot
+*.hprof
