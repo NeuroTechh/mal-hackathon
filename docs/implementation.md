@@ -1,6 +1,6 @@
 # Core product
 
-Reference: `architecture.pdf`. One React Native app with Patient, Hospital and Doctor buttons. Identity selection is a development-only adapter, not authentication. The normal auth packages remain installed for later integration.
+Reference: [production design](architecture/production-design.md). For how the code compares with the design, see [as built](architecture/as-built.md). One React Native app with Patient, Hospital and Doctor buttons. Identity selection is a development-only adapter, not authentication. The normal auth packages remain installed for later integration.
 
 ## Available flows
 

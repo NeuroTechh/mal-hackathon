@@ -6,6 +6,23 @@ A mobile appointment and patient-record platform connecting patients, hospitals 
 
 Built by [@KartikJain14](https://github.com/KartikJain14), [@naitiklodha](https://github.com/naitiklodha) and [@MananGandhi1810](https://github.com/MananGandhi1810).
 
+<img src="docs/assets/winner-photo-mal.jpeg" alt="Three team members holding the MAL Hackathon first-prize champions cheque for 20,000 rupees, in front of a Paytm logo on a marble wall." width="420">
+
+*The team with the first-prize cheque. Mumbai, 1 November 2026.*
+
+## Documentation
+
+The design documents behind the win, with a record of where the code differs from them. Start at the [documentation index](docs/README.md).
+
+| Document | What it covers |
+| --- | --- |
+| [Problem brief](docs/problem-brief.md) | The problem, users, scope and success conditions |
+| [Production design](docs/architecture/production-design.md) | The full platform at scale: regions, compliance, payments and rollout |
+| [High-level design](docs/architecture/hld.md) | The prototype's architecture, data flows and failure handling |
+| [Low-level design](docs/architecture/lld.md) | The confirm flow: invariants, state machines, data model and concurrency |
+| [Decision records](docs/adr/README.md) | 19 decisions, the alternatives to each, and what would reopen them |
+| [As built](docs/architecture/as-built.md) | What the code does today, what has been verified, and known gaps |
+
 ## What it does
 
 - **Patients:** discover hospitals and doctors, book appointments for themselves or family, attach medical records, manage appointments and access visit history.
@@ -36,9 +53,9 @@ The current app uses Patient / Hospital / Doctor role buttons and fixed developm
 ```text
 app/        Expo mobile application
 backend/    Express API, SQL migrations and seed scripts
-docs/       Implementation notes and testing backlog
+docs/       Design documents, decision records, implementation notes and testing backlog
 compose.yaml
-architecture.pdf   Architecture brief
+architecture.pdf   Scanned copy of the production design
 ```
 
 ## Run locally

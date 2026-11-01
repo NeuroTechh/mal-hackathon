@@ -8,4 +8,6 @@ Requested after the core flows are usable. Keep these as dedicated suites with r
 - Security: tenant and role isolation, object ownership, upload size/type/content validation, QR replay/revocation, input injection, rate limiting and authorization bypass. Verify demo identity headers are disabled in production. Test real auth when it replaces role buttons.
 - Faults: Redis loss, PostgreSQL restarts, dropped responses after commit, worker retries and storage failures.
 
+- Regressions: turn the one-off checks in [as built](architecture/as-built.md) into repeatable tests, including the [known gaps](architecture/as-built.md#known-gaps) and the remaining cases in the [LLD test plan](architecture/lld.md#test-plan).
+
 Current checks: `npm run test:integration` and `npm run test:workflows` in backend. They cover functional booking and workflow behavior, not the complete suites above.
